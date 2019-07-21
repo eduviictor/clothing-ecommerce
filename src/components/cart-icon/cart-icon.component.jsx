@@ -6,7 +6,6 @@ import './cart-icon.styles.scss';
 
 import { connect } from 'react-redux';
 import { toggleCartHidden } from '../../redux/cart/cart.actions';
-import { dispatch } from 'rxjs/internal/observable/pairs';
 
 const CartIcon = ({ toggleCartHidden }) => (
     <div className="cart-icon" onClick={toggleCartHidden}>
